@@ -1,0 +1,27 @@
+# MFV Live Code 
+
+# Product
+This is a product which supports users manage their tasks by bellow features:
+- Adding new task including task name and task estimation.
+- The tasks will be listed along their ids, names and estimations.
+- A aggregation of task estimations will be calculated and shown.
+
+# Tasks need applicants proceed
+
+## Task 1
+### Requirement: Separate Toolbar and List components into child components.
+- Toolbar -> src/Toolbar.tsx
+- List -> src/Body.tsx
+
+## Task 2
+### Requirement: Check and fix the issue of rendering list.
+Curent list can not be reflected after adding new task.
+
+## Task 3. 
+### Requirement: Fix the issue of Total Estimation.
+Curent Total estimation is counted incorrectly.
+### Precondition: Uncomment code for task 3.
+
+## Task 4.
+### Requirement: Check the performance of list items.
+When adding new items, all of existing item nodes have been rerendered.

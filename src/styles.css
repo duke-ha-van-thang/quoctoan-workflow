@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+ul {
+  padding-left: 0;
+}
+li:nth-child(1) {
+  font-weight: bold;
+}
+
+li {
+  margin: 20px;
+  text-align: left;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+input {
+  padding: 8px;
+  margin: 0 8px;
+}
+button {
+  padding: 8px;
+  margin: 0 8px;
+}
+div:nth-child(1) {
+  flex-basis: 150px;
+}
+div:nth-child(2) {
+  flex-grow: 2;
+}
